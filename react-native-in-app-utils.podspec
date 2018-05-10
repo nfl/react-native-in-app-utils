@@ -3,7 +3,7 @@ pjson = JSON.parse(File.read('package.json'))
 
 Pod::Spec.new do |s|
 
-  s.name            = pjson["name"]
+  s.name            = "react-native-in-app-utils"
   s.version         = pjson["version"]
   s.homepage        = "https://github.com/chirag04/react-native-in-app-utils"
   s.summary         = pjson["description"]
